@@ -24,6 +24,8 @@ btnColor.onclick = (e) => {
   currentMode = 'color';
   btnColor.classList.add('active');
   btnMove.classList.remove('active');
+
+  generateForm(true); 
 };
 
 btnMove.onclick = (e) => {
